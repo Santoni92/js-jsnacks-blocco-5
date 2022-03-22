@@ -9,11 +9,11 @@ fondaArray(array1,array2);
 
  function fondaArray(array1,array2)
  {
-     const unionArry = [];
+     const unionArray = [];
      for(let i = 0; i < array1.length; i++)
      {
          unionArry.push(array1[i]);
          unionArry.push(array2[i]);
      }
-     console.log(unionArry.join(' '));
+     console.log(unionArray.join(' '));
  }

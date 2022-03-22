@@ -12,8 +12,8 @@ fondaArray(array1,array2);
      const unionArray = [];
      for(let i = 0; i < array1.length; i++)
      {
-         unionArry.push(array1[i]);
-         unionArry.push(array2[i]);
+         unionArray.push(array1[i]);
+         unionArray.push(array2[i]);
      }
      console.log(unionArray.join(' '));
  }

@@ -23,49 +23,49 @@ console.log('JS OK!');
 
      {
         varietà:"romanesco",
-        peso:40,
+        peso:50,
         lunghezza:10
      },
 
      {
         varietà:"fiorentino",
-        peso:30,
+        peso:50,
         lunghezza:15
      },
 
      {
         varietà:"trombetta",
-        peso:20,
+        peso:50,
         lunghezza:20
      },
 
      {
         varietà:"patisson",
-        peso:15,
+        peso:50,
         lunghezza:4
      },
 
      {
         varietà:"friulano",
-        peso:8,
+        peso:50,
         lunghezza:9
      },
 
      {
         varietà:"crookneck",
-        peso:7,
+        peso:50,
         lunghezza:6
      },
 
      {
         varietà:"faentino",
-        peso:6,
+        peso:50,
         lunghezza:6
      },
 
      {
         varietà:"lucano",
-        peso:12,
+        peso:50,
         lunghezza:2
      },
 
@@ -80,11 +80,8 @@ console.log('JS OK!');
 
  for(let i = 0; i < arrayDiZucchine.length; i++)
  {
-     console.log(arrayDiZucchine[i]);
-     /*
-     for(let peso in arrayDiZucchine[i])
-     {
-         somma += 
-     }*/
-     //somma += arrayDiZucchine[i];
+     //console.log(arrayDiZucchine[i]);
+      somma += arrayDiZucchine[i].peso; 
  }
+
+ console.log('Il totale dei pesi delle varie zucchine è: ',somma);

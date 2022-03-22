@@ -16,61 +16,61 @@ console.log('JS OK!');
 
  const arrayDiZucchine = [
      {
-        varietà:napoletana,
+        varietà:"napoletana",
         peso:50,
         lunghezza:5
      },
 
      {
-        varietà:romanesco,
+        varietà:"romanesco",
         peso:40,
         lunghezza:10
      },
 
      {
-        varietà:fiorentino,
+        varietà:"fiorentino",
         peso:30,
         lunghezza:15
      },
 
      {
-        varietà:trombetta,
+        varietà:"trombetta",
         peso:20,
         lunghezza:20
      },
 
      {
-        varietà:patisson,
+        varietà:"patisson",
         peso:15,
         lunghezza:4
      },
 
      {
-        varietà:friulano,
+        varietà:"friulano",
         peso:8,
         lunghezza:9
      },
 
      {
-        varietà:crookneck,
+        varietà:"crookneck",
         peso:7,
         lunghezza:6
      },
 
      {
-        varietà:faentino,
+        varietà:"faentino",
         peso:6,
         lunghezza:6
      },
 
      {
-        varietà:lucano,
+        varietà:"lucano",
         peso:12,
         lunghezza:2
      },
 
      {
-        varietà:napoletana,
+        varietà:"napoletana",
         peso:50,
         lunghezza:1
      }

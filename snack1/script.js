@@ -81,7 +81,10 @@ console.log('JS OK!');
  for(let i = 0; i < arrayDiZucchine.length; i++)
  {
      //console.log(arrayDiZucchine[i]);
-      somma += arrayDiZucchine[i].peso; 
+      somma += arrayDiZucchine[i].peso; /*accedo all'i-esimo elemento dell'array di oggetti (che è appunto un oggetto) e 
+                                          per ciascuno di questi oggetti mi vado a recuperare il valore della chiave 'peso'
+                                         (coppia chiave/valore costituisce una proprietà dell'oggetto)*/
+      //somma += arrayDiZucchine[i]['peso'];
  }
 
  console.log('Il totale dei pesi delle varie zucchine è: ',somma);

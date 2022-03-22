@@ -70,6 +70,21 @@ for(let i = 0; i < arrayDiZucchine.length; i++)
     }
 }
 
-console.log("L'array delle zucchine più lunghe è: " + arrayZucchineLunghe);
-//console.log("L'array delle zucchine più corte è: " + arrayZucchineCorte);
+console.log(arrayZucchineLunghe);
+console.log(arrayZucchineCorte);
+
+
+let somma = 0;
+for(let i = 0; i < arrayZucchineLunghe.length; i++)
+{
+    somma += arrayDiZucchine[i]['peso'];
+}
+console.log("La somma dei pesi delle zucchine più lunghe risulta: ",somma);
+somma = 0;
+for(let i = 0;i < arrayZucchineCorte.length; i++)
+{
+    somma += arrayDiZucchine[i]['peso'];
+}
+console.log("La somma dei pesi delle zucchine più corte risulta: ",somma);
+somma = 0;
 

@@ -9,6 +9,7 @@ console.log('La tua stringa scritta alla rovescia risulta: ' + stringReverse(str
 function stringReverse(inputString)
 {
     stringaRovesciata = [];
+    //inputString = inputString.trim().toLowerCase(); //elimino eventuali spazi all'inizio ed alla fine della stringa inserita dall'utente e passata come argomento alla funzione
     for(let i = (inputString.length - 1); i >= 0; i--)
     {
         stringaRovesciata.push(inputString[i]);
